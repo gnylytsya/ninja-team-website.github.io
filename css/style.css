@@ -32,7 +32,7 @@ header:after {
 }
 
 header nav .nav a {
-	font-family: 'Montserrat', sans-serif;
+	font-family:'Playfair Display',sans-serif;
 	color: #7a7a7a;
 	text-decoration: none;
 	font-size: 1.2em;
@@ -69,7 +69,7 @@ div.banner {
 }
 
 h1.banner-headline {
-	font-family: 'Montserrat', sans-serif;
+	font-family:'Playfair Display',sans-serif;
 	font-size: 60px;
 	padding-top: 250px;
 	font-weight: bold;
@@ -77,14 +77,14 @@ h1.banner-headline {
 }
 
 div.banner p {
-	font-family: 'Montserrat', sans-serif;
+	font-family:'Playfair Display',sans-serif;
 	font-size: 20px;
 	color: #fff;
 }
 
 div.banner a {
 	margin-top: 20px;
-	font-family: 'Montserrat', sans-serif;
+	font-family:'Playfair Display',sans-serif;
 	font-size: 1.3em;
 	color: #d5d5d5;
 	font-weight: bold;
