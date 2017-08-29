@@ -4,6 +4,13 @@
 }
 * a {
 	color: #08b6e6;
+	-webkit-transition: all 1.1s ease;
+        transition: all 1.1s ease;
+}
+
+* a:hover {
+	-webkit-transition: all 1.1s ease;
+        transition: all 1.1s ease;
 }
 header {
 	background-color: #fff;
@@ -271,6 +278,8 @@ section.on-devices:after {
 	color: #08b6e6;
 	width: 200px;
 	padding: 12px 30px 12px 30px;
+	-webkit-transition: all 1.1s ease;
+        transition: all 1.1s ease;
 }
 #latest-episodes .btn:hover {
 	background-color: #08b6e6;
@@ -278,6 +287,8 @@ section.on-devices:after {
 	font-weight: normal;
 	border: 1px solid #666;
 	filter: blur(0.1px);
+	-webkit-transition: all 1.1s ease;
+        transition: all 1.1s ease;
 }
 #latest-episodes .btn:active {
 	filter: blur(0.1px);
@@ -430,6 +441,8 @@ section.on-devices:after {
 	color: #08b6e6;
 	width: 300px;
 	padding: 12px 0px 12px 0px;
+	-webkit-transition: all 1.1s ease;
+        transition: all 1.1s ease;
 }
 .footer .container .btn:hover {
 	background-color: #08b6e6;
@@ -437,6 +450,8 @@ section.on-devices:after {
 	font-weight: normal;
 	border: 1px solid #666;
 	filter: blur(0.1px);
+	-webkit-transition: all 1.1s ease;
+        transition: all 1.1s ease;
 }
 .footer .container .btn:active {
 	filter: blur(0.1px);
