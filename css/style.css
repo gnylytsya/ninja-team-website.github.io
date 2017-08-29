@@ -237,6 +237,10 @@ section.on-devices:after {
     clear:both;
 }
 
+section.featuring-new-media {
+	padding:50px 0;
+}
+
 section.featuring-new-media:after {
 	display: block;
 	content:'';
