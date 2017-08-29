@@ -6,7 +6,7 @@ $(document).ready(function() {
 
 	var
 	speed = 500,
-	$scrollTop = $('<a href="#" class="scrollTop hidden-xs"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>').appendTo('body');        
+	$scrollTop = $('<div class="scrollTop"><a href="#top"><i class="fa fa-arrow-up" aria-hidden="true"></i></a></div>').appendTo('body');              
 
 	$scrollTop.click(function(e){
 		e.preventDefault();
