@@ -232,9 +232,9 @@ section.on-devices:after {
 
 .featuring-new-media img {
 	float: left;
-	margin-right: 15px;
+	margin-right: 20px;
 	margin-bottom: 20px;
-    clear:both;
+        clear:both;
 }
 
 section.featuring-new-media {
@@ -272,8 +272,13 @@ section.featuring-new-media li a {
 section.featuring-new-media li p {
     margin-left: 0;
     overflow:auto;
-    line-height: 18px;
+    line-height: 21px;
     font-size: 16px;
+    margin-top: 10px;
+}
+
+section.featuring-new-media li:nth-child(2) {
+	margin-top: 30px;
 }
 
 .latest-text h4{
