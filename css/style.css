@@ -70,15 +70,17 @@ header nav li {
 }
 
 div.banner {
+	display: flex;
+	align-items: center;
 	background: url('../img/banner.jpg') no-repeat center/cover;
 	height: 90vh;
 	text-align: center;
+	padding-top: 100px;
 }
 
 h1.banner-headline {
 	font-family:'Playfair Display',sans-serif;
 	font-size: 60px;
-	padding-top: 250px;
 	font-weight: bold;
 	color: #fff;
 }
