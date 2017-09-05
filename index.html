@@ -7,10 +7,12 @@
 	<link rel="stylesheet" href="css/reset.css">
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/responsive.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
 	<link rel="shortcut icon" href="img/icon.png" type="image/png">
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display" type="text/css" rel="stylesheet" >
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 </head>
 <body>
 
@@ -18,35 +20,46 @@
 
     <!-- Header -->
 	<header> 
-		<div class="container-fluid">
-			<div class="row">
-				<div class="logo col-md-3"><a href="#"><img src="img/logo.svg" alt=""></a></div>
-				<nav class="col-md-8">
-					<ul class="nav text-center">
-						<li class="nav-item">
-							<a class="nav-link" href="#">Home</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Watching online</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Actors</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Music</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">News</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Subscribe</a>
-						</li>
-					</ul>
-				</nav>
-				<div class="search col-md-1"><i class="fa fa-search" aria-hidden="true"></i></div>
-			</div> <!-- End row -->
-		</div> <!-- End container-fluid -->
-	</header> <!-- End Header -->
+	<nav class="navbar navbar-default">
+      <div class="container">
+           <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </button>
+            <a class="navbar-brand logo" href="#"><img src="img/logo.svg" alt="logo"></a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+              <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">Watching online</a>
+            </li>
+            <li>
+                <a href="#">Actors</a>
+            </li>
+            <li>
+                <a href="#">Music</a>
+            </li>
+            <li>
+                <a href="#">News</a>
+            </li>
+            <li>
+                <a href="#">Subscribe</a>
+            </li>
+            <li>
+                <div class="search"><i class="fa fa-search" aria-hidden="true"></i></div>
+            </li>
+        </ul>
+    </div>
+
+
+</div>
+</nav>
+
+</header> <!-- End Header -->
 
 <!-- Banner -->
 	<div class="banner">
@@ -54,12 +67,12 @@
 			<h1 class="banner-headline">All Episodes In One Place</h1>
 			<p>"There is nothing on this earth more to be prized than true friendship."</p>
 			<a class="btn btn-primary" href="#" role="button">Start Watching Here</a>
-	    </div><!-- End container-fluid -->
+	    </div><!-- End container -->
 	</div><!-- End Banner -->
 
 	<!-- Media partners -->
 	<section class="media-partners">
-		<div class="container-fluid">
+		<div class="container">
 			<div class="flex-media">
 				<h2 class="media-header">As seen on</h2>
 				<ul>
@@ -72,12 +85,12 @@
 					<li><a href="#"><img src="img/brand7.png" alt="brand7"></a></li>
 				</ul>
 			</div><!-- End flex-media -->
-		</div><!-- End container-fluid -->
+		</div><!-- End container -->
 	</section> <!-- End Media partners -->
 
 	<!-- On devices -->
 	<section class="on-devices">
-		<div class="container-fluid">
+		<div class="container">
 		    <div class="row">
 		      <div class="col-md-6">
 		      	<h2 class="on-devices-header">You Can Download Our App</h2>
@@ -98,7 +111,7 @@
 	
 	<!-- Featuring MASS MEDIA -->
 	<section class="featuring-new-media">
-		<div class="container-fluid">
+		<div class="container">
 		<h2 class="featuring-new-media-header text-center">Featuring <a href="#">MASS MEDIA</a> News about actors... </h2>
 		    <div class="row">
 		      <div class="col-md-6">
@@ -135,7 +148,7 @@
 	
 	<!-- LASTEST EPISODES -->
 	<section id="latest-episodes">
-		<div class="container-fluid">
+		<div class="container">
 			<div class="col-md-12">
 				<h2 class="text-center">Watch & Listen <a href="">To Our Latest Episodes</a> (Below):</h2>
 			</div>
@@ -300,7 +313,7 @@
 		</section>
 	</footer>
    
-	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	
 	<script type="text/javascript" src="js/common.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 </body>
