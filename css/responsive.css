@@ -145,6 +145,12 @@
 	section.featuring-new-media li a {
 		font-size: 20px;	
 	}
+
+	.featuring-new-media img,
+	section.featuring-new-media li a,
+	section.featuring-new-media li p {
+		width: 90%;
+	}
 }
 
 /* Custom, iPhone Retina */
