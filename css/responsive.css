@@ -40,6 +40,15 @@
 		width: 90%;
 	}
 
+	section.featuring-new-media .list-actors-1 li:nth-child(2) {
+		margin-top: 10px;
+	}
+
+	.featuring-new-media img {
+		float: none;
+		width: 90%;
+	}
+
 }
 
 @media only screen and (max-width : 1011px) {
@@ -59,6 +68,20 @@
 	}
 	div.search {
 		font-size: 1em;
+	}
+
+	.featuring-new-media img,
+	section.featuring-new-media li a,
+	section.featuring-new-media li p {
+		width: 80%;
+		margin-left: 10%;
+	}
+    section.featuring-new-media li a {
+		font-size: 25px;	
+	}
+
+	section.featuring-new-media h2 {
+		font-size: 30px;
 	}
 }
 
@@ -113,6 +136,14 @@
 
 	#latest-episodes .btn {
 		margin-left: 10%;
+	}
+
+	section.featuring-new-media h2 {
+		font-size:24px;
+	}
+
+	section.featuring-new-media li a {
+		font-size: 20px;	
 	}
 }
 
