@@ -149,7 +149,9 @@
 	.featuring-new-media img,
 	section.featuring-new-media li a,
 	section.featuring-new-media li p {
-		width: 90%;
+		width: 100%;
+		margin-right: 0;
+		margin-left: 0;
 	}
 }
 
