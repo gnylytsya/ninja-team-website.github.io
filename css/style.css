@@ -287,8 +287,12 @@ section.featuring-new-media li p {
     font-family: 'Open Sans', sans-serif;
 }
 
-section.featuring-new-media li:nth-child(2) {
+section.featuring-new-media .list-actors-2 li:nth-child(2) {
 	margin-top: 30px;
+}
+
+section.featuring-new-media .list-actors-1 li:nth-child(2) {
+	margin-top: 10px;
 }
 
 .latest-text h4{
